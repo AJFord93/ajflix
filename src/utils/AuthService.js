@@ -6,9 +6,9 @@ const ACCESS_TOKEN_KEY = 'access_token';
 
 const CLIENT_ID = 'SJeWlaEEtqi4i1t0DrjUxnbHcFnDIa5i';
 const CLIENT_DOMAIN = 'ajford.auth0.com';
-const REDIRECT = 'http://localhost:3000/callback';
+const REDIRECT = 'http://ajflix93.herokuapp.com/callback';
 const SCOPE = 'openid';
-const AUDIENCE = 'https://ajford.auth0.com/userinfo';
+const AUDIENCE = 'http://ajflix93.herokuapp.com/';
 
 var auth = new auth0.WebAuth({
   clientID: CLIENT_ID,
